@@ -1,22 +1,22 @@
-# package_name
+# IMG-PROCESS
 
 Description. 
-The package package_name is used to:
+The package package_name is used to: process images
 	- 
 	-
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install img-process
 
 ```bash
-pip install package_name
+pip install img-process
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
+import img-process
 file1_name.my_function()
 ```
 
