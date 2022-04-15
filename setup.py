@@ -6,16 +6,15 @@ with open("README.md", "r") as f:
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
-setup(
-    name="package_name",
+setup(name="img-process",
     version="0.0.1",
-    author="my_name",
+    author="Beto",
     author_email="my_email",
     description="My short description",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="my_github_repository_project_link",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.8',
-)
+    python_requires='>=3.8'
+    )
